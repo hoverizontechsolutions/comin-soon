@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    width: 1000px;
+    height: 100%;
+}
+
+.coming-soon-text {
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    width: 600px;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 250px;
+}
