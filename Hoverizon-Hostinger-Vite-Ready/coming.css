@@ -24,3 +24,53 @@
     left: 40px;
     width: 250px;
 }
+
+@media (max-width: 767px) {
+  html {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+    overflow-x: hidden;
+    background: #fff;
+  }
+
+  .logo {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    z-index: 3;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 50vh;
+    top: 50svh;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transform: translateY(-50%);
+    display: block;
+  }
+
+  .coming-soon-text {
+    position: absolute;
+    top: 50vh;
+    top: 50svh;
+    left: 4%;
+    width: 45%;
+    height: auto;
+    max-width: 100%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+}
